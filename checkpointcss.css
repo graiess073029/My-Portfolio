@@ -1,0 +1,86 @@
+
+*{outline: none;}
+body{background-color: white; margin: 0%;}
+header{display: block;
+    background-color: lightgreen;}
+header *{display: inline-block;}
+header h2{margin-left: 1%;}
+header nav{margin-top: 0.7%;}
+header nav ul li a{text-decoration: none;color: black;padding-right: 10px;font-size: large;}
+.navbar-right{padding-left: 30px;}
+#contact{text-decoration: none;color: black;padding-right: 10px;font-size: large;}
+
+#about-section{display: flex;flex-direction: row;justify-content: space-between;}
+.left{font-size: larger;font-family: 'Times New Roman', Times, serif;text-align: center; justify-content: center;width: 50%;margin-top: 7%;}
+
+.skills .right{font-size: large;font-family: 'Times New Roman', Times, serif;justify-content: center;width: 50%;margin-top: 7%;  line-height: 40px; letter-spacing:1px;border-left: 1px solid black; box-shadow: 10px gray;}
+div.right p{margin-left: 2%;}
+.skills{margin-left: 2%;display: flex;flex-direction: row; border: 1px solid black; border-radius: 20px 20px 20px 20px;}
+.project{height:500px ;;margin-left: 2%;display: flex;flex-direction: row; border: 1px solid black; border-radius: 20px 20px 20px 20px;}
+.math{width: 60%;border-radius: 20px 0px 0px 20px;}
+.project .right{font-size: large;font-family: 'Times New Roman', Times, serif;justify-content: center;width: 50%;margin-top: 7%;  line-height: 40px; letter-spacing:1px;border-left: 1px solid black; }
+#n1{background-image: url("bg1.png"); background-size: cover; border-radius: 20px 0px 0px 20px;}
+#n2{background-image: url("bg3.png"); background-size: cover; border-radius: 20px 0px 0px 20px;}
+#n3{background-image: url("bg2.png"); background-size: cover;border-radius: 20px 0px 0px 20px;}
+.project .left{margin: 0%;}
+.project .right{margin: 0%;}
+
+.skills-section{width: 98%;display: flex;flex-direction: column;justify-content: center;}
+#projects{width: 98%;display: flex;flex-direction: column;justify-content: center;}
+
+.message{display: flex;flex-direction: row;}
+.contact-message .message .right{font-size: larger;font-family: 'Times New Roman', Times, serif;margin: 0%;margin-top: 3%;}
+.contact-message .right form textarea {font-size: larger;outline: none;margin-right: 20px;}
+.contact-message .right form textarea:hover{border: 2px solid black}
+.contact-message .right button:active{background-color: whitesmoke;}
+.contact-message .right button:hover{color: black;cursor: pointer;
+    border: 2px solid black;}
+.contact-message .right button{
+    width: 50%;
+    height: 10%;
+    background-color: white;
+    border:0px;;
+    border: 1px solid black;
+    font-size: larger;
+    color: gray;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    left: 26%;
+    margin-bottom: 2%;
+    }
+.contact-message .message .left img{position: relative;bottom: 100px;}
+footer{background-color: whitesmoke}
+.icon{width: 100%;}
+footer div a{outline: none;text-decoration: none;color: dimgray;}
+
+.title-hr {
+    border: none;
+    border-top: 2px solid #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.title-hr:after {
+    background: whitesmoke;
+    content: 'Contactez-Nous';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+    font-size: x-large;
+}
+
+.title{position: relative;top: 30px;}
+
+.main-contact .social-media div a{width: 2%;}
+.main-contact{display: flex;flex-direction: column;padding-top:2%;justify-content: center;}
+.main-contact .social-media{margin-top: 1%;display: flex;flex-direction: column;justify-content: center;}
+.main-contact .social-media div{display: flex;flex-direction: row;gap: 1%;justify-content: center;}
+.email-div{display: flex;flex-direction: column;justify-content: center;}
+.email-div p{margin-bottom: 0;text-align: center;}
+ul{list-style:none ;text-align: center;}
+.objectifs{display: flex;flex-direction: row;}
+.objectifs img{margin-left: 30%;margin-top: 10%;}
+
+.link{display: inline;color: #333;}
